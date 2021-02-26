@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(136, 136, 136);
+    
+}
+.wrapperMain{
+    height: 200px;
+    width: 400px;
+    margin: 18% 0% 0% 35%;
+    background-color: rgb(206, 166, 166);
+    border-radius: 5%;
+}
+.input{
+    position: absolute;
+    height: 70px;
+    width: 180px;
+}
+.input1{
+    height: 70px;
+    width: 180px;
+    margin: 12px 0 0 30px;}
+.input2{
+    height: 70px;
+    width: 180px;
+    margin: 52px 0 0 58px;
+}
+#inputText{
+    height: 30px;
+    width: 270px;
+}
+#inputNumber{
+    height: 30px;
+    width: 220px;
+}
+#btn1{
+    position: absolute;
+    height: 20px;
+    width: 80;
+    margin: 17px 0 0 307px;
+}
+#btn2{
+    position: absolute;
+    height: 34px;
+    width: 80;
+    margin: 50px 0 0 307px;
+}
