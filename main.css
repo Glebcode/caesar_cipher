@@ -1,12 +1,12 @@
 body{
-    background-color: rgb(136, 136, 136);
+    background-color: rgb(240, 240, 240);
     
 }
 .wrapperMain{
     height: 200px;
     width: 400px;
-    margin: 18% 0% 0% 35%;
-    background-color: rgb(206, 166, 166);
+    margin: 5% 0% 0% 35%;
+    background-color: rgb(235, 215, 215);
     border-radius: 5%;
 }
 .input{
@@ -17,17 +17,22 @@ body{
 .input1{
     height: 70px;
     width: 180px;
-    margin: 12px 0 0 30px;}
+    margin: 20px 0 0 30px;
+}
 .input2{
     height: 70px;
     width: 180px;
-    margin: 52px 0 0 58px;
+    margin: 78px 0 0 58px;
 }
 #inputText{
+    outline: 0;
+    border-radius: 10px;
     height: 30px;
     width: 270px;
 }
 #inputNumber{
+    outline: 0;
+    border-radius: 10px;
     height: 30px;
     width: 220px;
 }
@@ -38,8 +43,81 @@ body{
     margin: 17px 0 0 307px;
 }
 #btn2{
+    outline: 0;
+    border-radius: 10px;
     position: absolute;
     height: 34px;
     width: 80;
-    margin: 50px 0 0 307px;
+    margin: 75px 0 0 307px;
 }
+.output{
+    position: absolute;
+    margin: 140px 0 0 30px;
+    outline: 0;
+    border-radius: 10px;
+    height: 25px;
+    width: 270px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(59, 59, 59);
+}
+ 
+
+.wrapperDecoder{
+    height: 140px;
+    width: 400px;
+    margin: 5% 0% 0% 35%;
+    background-color: rgb(180, 163, 163);
+    border-radius: 5%;
+}
+.inputDecoder{
+    position: absolute;
+    height: 70px;
+    width: 180px;
+}
+.input1Decoder{
+    height: 70px;
+    width: 180px;
+    margin: 20px 0 0 30px;
+}
+.input2Decoder{
+    height: 70px;
+    width: 180px;
+    margin: 78px 0 0 58px;
+}
+#inputTextDecoder{
+    outline: 0;
+    border-radius: 10px;
+    height: 30px;
+    width: 270px;
+}
+#inputNumberDecoder{
+    outline: 0;
+    border-radius: 10px;
+    height: 30px;
+    width: 220px;
+}
+#btn1Decoder{
+    position: absolute;
+    height: 20px;
+    width: 80;
+    margin: 17px 0 0 307px;
+}
+#btn2Decoder{
+    outline: 0;
+    border-radius: 10px;
+    position: absolute;
+    height: 34px;
+    width: 80;
+    margin: 45px 0 0 307px;
+}
+.outputDecoder{
+    position: absolute;
+    margin: 85px 0 0 30px;
+    outline: 0;
+    border-radius: 10px;
+    height: 25px;
+    width: 270px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(59, 59, 59);
+}
+ 
